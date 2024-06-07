@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.graph_objs as go
 import torch
 
-from gr4h import gr4h_core, tensor32
+from src.gr4h import gr4h_core, tensor32
 
 df = pd.read_pickle(r'../data/L0123003.pkl')
 r_run_df = pd.read_csv(r'../data/airGR_sim.csv')
